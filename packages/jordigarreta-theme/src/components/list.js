@@ -12,7 +12,6 @@ const List = ( {state} ) => {
         <div>
             {data.items.map(item => {
                 const post = state.source.post[item.id];
-                console.log("Item: ", item);
                 return(
                     <Link key={item.id} href={post.link}>
                         {post.title.rendered}
