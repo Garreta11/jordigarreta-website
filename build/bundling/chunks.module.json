@@ -1,0 +1,66 @@
+{
+  "errors": [],
+  "warnings": [],
+  "hash": "ff57206ba5b7323829e0",
+  "publicPath": "",
+  "outputPath": "/Users/jordigarreta/Documents/JordiGarreta/frontity-react/build/static",
+  "assetsByChunkName": {
+    "frontity-react": "frontity-react.module.js"
+  },
+  "assets": [
+    {
+      "name": "fonts/FugueMono.ttf",
+      "size": 92312,
+      "chunks": [],
+      "chunkNames": [],
+      "info": {
+        "sourceFilename": "packages/jordigarreta-theme/src/fonts/FugueMono.ttf"
+      },
+      "emitted": false
+    },
+    {
+      "name": "fonts/HelveticaNeueBlackExt.ttf",
+      "size": 27468,
+      "chunks": [],
+      "chunkNames": [],
+      "info": {
+        "sourceFilename": "packages/jordigarreta-theme/src/fonts/HelveticaNeueBlackExt.ttf"
+      },
+      "emitted": false
+    },
+    {
+      "name": "frontity-react.module.js",
+      "size": 6961168,
+      "chunks": [
+        "frontity-react"
+      ],
+      "chunkNames": [
+        "frontity-react"
+      ],
+      "info": {},
+      "emitted": false
+    }
+  ],
+  "filteredAssets": 0,
+  "namedChunkGroups": {
+    "frontity-react": {
+      "chunks": [
+        "frontity-react"
+      ],
+      "assets": [
+        "frontity-react.module.js"
+      ],
+      "children": {},
+      "childAssets": {}
+    }
+  },
+  "generator": "loadable-components",
+  "chunks": [
+    {
+      "id": "frontity-react",
+      "files": [
+        "frontity-react.module.js"
+      ]
+    }
+  ]
+}
