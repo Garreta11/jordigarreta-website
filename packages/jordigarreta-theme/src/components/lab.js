@@ -5,10 +5,6 @@ const Lab = ( {state} ) => {
 
     const data = state.source.get(state.router.link);
     const page = state.source[data.type][data.id];
-    
-    console.log(state);
-    console.log(data);
-    console.log(page);
 
 
     useLayoutEffect(() => {
@@ -18,7 +14,6 @@ const Lab = ( {state} ) => {
             const x = e.pageX;
             const y = e.pageY;
 
-            // console.log( document.elementFromPoint(x, y) );
             let labItem = document.getElementsByClassName("lab-item-info");
             let n = labItem.length;
             for(var i = 0; i < n; i ++) {

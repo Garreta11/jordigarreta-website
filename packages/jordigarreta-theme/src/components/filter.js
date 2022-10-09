@@ -13,7 +13,6 @@ const Filter = ( {state} ) => {
     });
 
     const handleClickAll = (e) => {
-        console.log("filter: ALL");
         let filterCat = document.querySelectorAll(".filter-category");
         [...filterCat].map(cat => {
             cat.classList.remove("selected");
@@ -51,7 +50,6 @@ const Filter = ( {state} ) => {
                         });
                         e.target.classList.add("selected");
 
-                        console.log("filter: ", e.target.id);
                         let elements = document.querySelectorAll(".project");
                         [...elements].map(proj => {
                             if (!proj.classList.contains(e.target.id)) {

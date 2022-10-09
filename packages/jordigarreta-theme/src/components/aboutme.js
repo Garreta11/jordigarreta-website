@@ -6,9 +6,6 @@ const Aboutme = ( {state} ) => {
     const data = state.source.get(state.router.link);
     const page = state.source[data.type][data.id];
 
-    console.log(data);
-    console.log(page);
-
     return(
         <div>
             <Description>{page.acf.description}</Description>

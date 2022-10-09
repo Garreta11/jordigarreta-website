@@ -6,7 +6,6 @@ const List = ( {state} ) => {
 
     const data = state.source.get(state.router.link);
 
-    console.log("ITEMS: ", data.items);
 
     return(
         <div>
