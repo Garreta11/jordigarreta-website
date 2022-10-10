@@ -1,7 +1,7 @@
 {
   "errors": [],
   "warnings": [],
-  "hash": "ff57206ba5b7323829e0",
+  "hash": "d702822a1a53866fea39",
   "publicPath": "",
   "outputPath": "/Users/jordigarreta/Documents/JordiGarreta/frontity-react/build/static",
   "assetsByChunkName": {
@@ -30,7 +30,7 @@
     },
     {
       "name": "frontity-react.module.js",
-      "size": 6961168,
+      "size": 6959114,
       "chunks": [
         "frontity-react"
       ],
