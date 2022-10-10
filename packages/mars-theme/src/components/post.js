@@ -32,6 +32,7 @@ const Post = ({ state, actions, libraries }) => {
   const author = state.source.author[post.author];
   // Get a human readable date.
   const date = new Date(post.date);
+  
 
   // Get the html2react component.
   const Html2React = libraries.html2react.Component;
