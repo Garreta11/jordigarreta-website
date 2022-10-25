@@ -36,6 +36,13 @@ const Root = ( {state} ) => {
                 html {
                     font-family: system-ui, Verdana, Arial, sans-serif;
                 }
+                strong {
+                    font-family: HelveticaNeue;
+                    font-size: 12px;
+                }
+                a {
+                    color: black;
+                }
                 .lab-container {
                     -moz-column-count: 2;
                     -webkit-column-count: 2;
