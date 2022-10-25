@@ -34,13 +34,14 @@ const LinkMenu = ({ href, actions, children, right, left }) => {
         <Linked href={href}
             onClick={e => {
                 e.preventDefault();
-                if (right) actions.router.set(href);
-                if (left) {
-                    window.open(
-                        href,
-                        '_blank' // <- This is what makes it open in a new window.
-                    );
-                }
+                actions.router.set(href);
+                // if (right) actions.router.set(href);
+                // if (left) {
+                //     window.open(
+                //         href,
+                //         '_blank'
+                //     );
+                // }
             }}
             css={css`
                 right: ${rightpos};
