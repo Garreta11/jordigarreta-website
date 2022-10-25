@@ -1,18 +1,18 @@
 {
   "errors": [],
   "warnings": [],
-  "hash": "dab27b4c6bf16f87ac6d",
+  "hash": "4df3cc3c1327eeddf730",
   "publicPath": "",
   "outputPath": "/Users/jordigarreta/Documents/JordiGarreta/frontity-react/build/static",
   "assetsByChunkName": {
     "frontity-react": [
       "frontity-react.module.js",
-      "frontity-react.1abf1770e8aa416b28e7.hot-update.js"
+      "frontity-react.093081bd0ce485a7bc8a.hot-update.js"
     ]
   },
   "assets": [
     {
-      "name": "1abf1770e8aa416b28e7.hot-update.json",
+      "name": "093081bd0ce485a7bc8a.hot-update.json",
       "size": 56,
       "chunks": [],
       "chunkNames": [],
@@ -30,7 +30,7 @@
       "info": {
         "sourceFilename": "packages/jordigarreta-theme/src/fonts/FugueMono.ttf"
       },
-      "emitted": false
+      "emitted": true
     },
     {
       "name": "fonts/HelveticaNeueBlackExt.ttf",
@@ -40,11 +40,11 @@
       "info": {
         "sourceFilename": "packages/jordigarreta-theme/src/fonts/HelveticaNeueBlackExt.ttf"
       },
-      "emitted": false
+      "emitted": true
     },
     {
-      "name": "frontity-react.1abf1770e8aa416b28e7.hot-update.js",
-      "size": 162716,
+      "name": "frontity-react.093081bd0ce485a7bc8a.hot-update.js",
+      "size": 160947,
       "chunks": [
         "frontity-react"
       ],
@@ -59,7 +59,7 @@
     },
     {
       "name": "frontity-react.module.js",
-      "size": 6999616,
+      "size": 6997847,
       "chunks": [
         "frontity-react"
       ],
@@ -78,7 +78,7 @@
       ],
       "assets": [
         "frontity-react.module.js",
-        "frontity-react.1abf1770e8aa416b28e7.hot-update.js"
+        "frontity-react.093081bd0ce485a7bc8a.hot-update.js"
       ],
       "children": {},
       "childAssets": {}
@@ -90,7 +90,7 @@
       "id": "frontity-react",
       "files": [
         "frontity-react.module.js",
-        "frontity-react.1abf1770e8aa416b28e7.hot-update.js"
+        "frontity-react.093081bd0ce485a7bc8a.hot-update.js"
       ]
     }
   ]

@@ -69,7 +69,7 @@ const Root = ( {state} ) => {
                 }
                 `}
             />
-            <LinkMenu href="./wp-content/uploads/2022/09/cv.pdf" left>
+            <LinkMenu href="/cv-2" left>
                 C<br/>U<br/>R<br/>R<br/>I<br/>C<br/>U<br/>L<br/>U<br/>M<br/><br/>
                 C<br/>U<br/>R<br/>R<br/>I<br/>C<br/>U<br/>L<br/>U<br/>M<br/><br/>
                 C<br/>U<br/>R<br/>R<br/>I<br/>C<br/>U<br/>L<br/>U<br/>M<br/><br/>
